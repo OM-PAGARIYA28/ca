@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: white;
+    background-color: #343a40; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    margin-right: 20px;
+}
