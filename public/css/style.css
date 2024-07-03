@@ -968,3 +968,33 @@ input[type="radio"]:checked+label::before {
         display: none;
     }
 }
+
+
+/* SERVICES */
+
+#about-us{
+    height: 100vh;
+}
+
+.aboutus-conatainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.aboutus-conatainer div{
+    /* width: 45%; */
+    flex: 1;
+}
+
+.image-holder{
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 10px;
+}
+
+#aboutus-slider{
+    margin: 15px;
+    border-radius: 10px;
+    
+}
