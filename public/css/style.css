@@ -129,6 +129,8 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 30px;
     justify-content: center;
     gap: 10px;
@@ -475,7 +477,6 @@ header nav a:hover {
 
 .contact-image {
     height: 40px;
-    width: 40px;
     padding-bottom: 10px;
 }
 
@@ -798,12 +799,12 @@ header nav a:hover {
     font-weight: 300;
 }
 
-div.desc {
+.desc {
     display: flex;
     text-align: left;
     flex-direction: column;
     margin: 50px 100px;
-    color: rgba(67, 66, 66, 0.77);
+    color: rgba(67, 66, 66, 0.861);
     font-weight: 300;
 }
 
@@ -855,13 +856,14 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked+label+.career-content {
-    max-height: 400px;
+    max-height: 800px;
     padding: 10px 10px 20px;
 }
 
 input[type="radio"]:checked+label::before {
     content: '-';
 }
+
 
 
 .accordian .inside li {
@@ -959,4 +961,40 @@ input[type="radio"]:checked+label::before {
     header nav {
         display: none;
     }
+}
+
+@media screen and (min-width: 923px){
+    .header-collapsed{
+        display: none;
+    }
+}
+
+
+/* SERVICES */
+
+#about-us{
+    height: 100vh;
+}
+
+.aboutus-conatainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.aboutus-conatainer div{
+    /* width: 45%; */
+    flex: 1;
+}
+
+.image-holder{
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 10px;
+}
+
+#aboutus-slider{
+    margin: 15px;
+    border-radius: 10px;
+    
 }
