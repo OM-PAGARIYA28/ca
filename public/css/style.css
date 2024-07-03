@@ -125,6 +125,18 @@ header nav a:hover {
 
 }
 
+.hide{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 0.7s;
+}
+
+.show-transition{
+    color: #b2b3b3;
+    opacity: 1;
+    filter: blur(0);
+}
+
 .show {
     display: flex;
     flex-direction: column;
@@ -666,9 +678,10 @@ header nav a:hover {
 
 h1{
     /* background-color: rgba(14, 25, 64, 0.888); */
+    font-size: 2.3rem !important;
     color: rgba(14, 25, 64, 0.888) !important;
     padding: 12px;
-    font-weight: 900 !important;
+    font-weight: 700 !important;
 }
 
 .card__container {
@@ -983,12 +996,12 @@ input[type="radio"]:checked+label::before {
     height: 100vh;
     /* background-color: #c2d0d7; */
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .flex-container{
     /* height: 100%; */
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
