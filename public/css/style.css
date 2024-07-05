@@ -457,6 +457,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(82, 76, 76);
     font-size: 28px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -651,6 +652,9 @@ header nav a:hover {
     }
 }
 
+footer p{
+    color: rgb(101, 93, 93);
+}
 
 .footer-logo {
     height: 60px;
@@ -681,7 +685,7 @@ h1{
     font-size: 2.3rem !important;
     color: rgba(14, 25, 64, 0.888) !important;
     padding: 12px;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 .card__container {
@@ -993,7 +997,7 @@ input[type="radio"]:checked+label::before {
 /* SERVICES */
 
 #about-us{
-    height: 100vh;
+    min-height: 100vh;
     /* background-color: #c2d0d7; */
     text-align: center;
     padding-top: 30px;
@@ -1001,18 +1005,40 @@ input[type="radio"]:checked+label::before {
 
 .flex-container{
     /* height: 100%; */
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-
-}
+    /* border: black 1px solid;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(224, 214, 214, 0.219); */
+} 
 
 .aboutus-container{
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: center;
     margin: 50px;
+}
+
+.about-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.about-desc>button{
+    background-color: rgba(18, 97, 216, 0.624);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
 }
 
 .aboutus-container div{
@@ -1021,12 +1047,14 @@ input[type="radio"]:checked+label::before {
 }
 
 .image-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
-    border: solid black 2px;
 }
 
 #aboutus-slider{
-    margin: 15px;
+    padding: 15px;
     border-radius: 10px;
-    
+    border: solid black 2px;
 }
