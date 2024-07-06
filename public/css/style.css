@@ -1058,3 +1058,83 @@ input[type="radio"]:checked+label::before {
     border-radius: 10px;
     border: solid black 2px;
 }
+
+
+/* Service Page */
+
+.serv_wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+    padding: 35px;
+}
+
+.content-box{
+    /* width: 1400px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ser_card{
+    min-height: 220px;
+    width: 375px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.24);
+    background: #fff;
+    margin: 25px 15px;
+    transition: 0.7;
+}
+
+.ser_card h2{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.ser_card p{
+    color: #6c757d;
+    text-align: center;
+}
+
+.ser_card:hover{
+    background: linear-gradient(90deg,
+        rgba(17, 39, 123, 0.7) 0%,
+        rgba(9,9,221,0.7) 35%,
+        rgba(0,212,215,0.7) 100%);
+        /* url(https://media.istockphoto.com/id/885943922/vector/financial-data-graph-chart-vector-illustration-trend-lines-columns-market-economy-information.jpg?s=612x612&w=0&k=20&c=Go7g8MbMIYBb4Tr1pxyazeRoUGARMAZUfh1A-OsruIU=); */
+
+    opacity: 0.7;
+    color: #ffffff;
+}
+
+.ser_card:hover p{
+    color: #fff;
+}
+
+.ser_card:hover h2{
+    font-weight: 800;
+    color: rgb(6, 7, 43);
+    opacity: 1;
+}
+
+/* .ser_card:nth-child(2n):hover{
+    background: linear-gradient(90deg,
+    rgba(2,2,36,0.7) 0%,
+    rgba(9,9,221,0.7) 35%,
+    rgba(0,212,215,0.7) 100%),
+    url("https://i.pinimg.com/originals/c7/e2/8a/c7e28abb2622beb10144c7ba24f270ee.jpg");
+} */
+
+/* .ser_card:nth-child(2n):hover h2{
+    color: white;
+} */
