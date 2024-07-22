@@ -125,13 +125,13 @@ header nav a:hover {
 
 }
 
-.hide{
+.hide {
     opacity: 0;
     filter: blur(5px);
     transition: all 0.7s;
 }
 
-.show-transition{
+.show-transition {
     color: #b2b3b3;
     opacity: 1;
     filter: blur(0);
@@ -652,7 +652,7 @@ header nav a:hover {
     }
 }
 
-footer p{
+footer p {
     color: rgb(101, 93, 93);
 }
 
@@ -673,14 +673,14 @@ footer p{
 
 /*=============== CARD ===============*/
 
-#service-section{
+#service-section {
     padding-top: 20px;
     text-align: center;
     background-color: rgba(193, 219, 239, 0.42);
     height: 100vh;
 }
 
-h1{
+h1 {
     /* background-color: rgba(14, 25, 64, 0.888); */
     font-size: 2.3rem !important;
     color: rgba(14, 25, 64, 0.888) !important;
@@ -809,6 +809,7 @@ h1{
 
 .career {
     height: 10vh;
+    /* DARK BLUE */
     background-color: rgba(14, 25, 64, 0.888);
     display: flex;
     justify-content: start;
@@ -829,7 +830,7 @@ h1{
     flex-direction: column;
     margin: 50px 100px;
     color: rgba(67, 66, 66, 0.861);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -987,8 +988,8 @@ input[type="radio"]:checked+label::before {
     }
 }
 
-@media screen and (min-width: 923px){
-    .header-collapsed{
+@media screen and (min-width: 923px) {
+    .header-collapsed {
         display: none;
     }
 }
@@ -996,14 +997,14 @@ input[type="radio"]:checked+label::before {
 
 /* SERVICES */
 
-#about-us{
+#about-us {
     min-height: 100vh;
     /* background-color: #c2d0d7; */
     text-align: center;
     padding-top: 30px;
 }
 
-.flex-container{
+.flex-container {
     /* height: 100%; */
     margin-top: 50px;
     display: flex;
@@ -1014,16 +1015,16 @@ input[type="radio"]:checked+label::before {
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgba(224, 214, 214, 0.219); */
-} 
+}
 
-.aboutus-container{
+.aboutus-container {
     display: flex;
     gap: 50px;
     justify-content: center;
     margin: 50px;
 }
 
-.about-desc{
+.about-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1033,7 +1034,7 @@ input[type="radio"]:checked+label::before {
     text-align: left;
 }
 
-.about-desc>button{
+.about-desc>button {
     background-color: rgba(18, 97, 216, 0.624);
     color: white;
     text-decoration: none;
@@ -1041,19 +1042,19 @@ input[type="radio"]:checked+label::before {
     border-radius: 10px;
 }
 
-.aboutus-container div{
+.aboutus-container div {
     /* width: 45%; */
     flex: 1;
 }
 
-.image-holder{
+.image-holder {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 }
 
-#aboutus-slider{
+#aboutus-slider {
     padding: 15px;
     border-radius: 10px;
     border: solid black 2px;
@@ -1062,7 +1063,7 @@ input[type="radio"]:checked+label::before {
 
 /* Service Page */
 
-.serv_wrapper{
+.serv_wrapper {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -1072,7 +1073,7 @@ input[type="radio"]:checked+label::before {
     padding: 35px;
 }
 
-.content-box{
+.content-box {
     /* width: 1400px; */
     margin: 0 auto;
     display: flex;
@@ -1080,7 +1081,7 @@ input[type="radio"]:checked+label::before {
     flex-wrap: wrap;
 }
 
-.ser_card{
+.ser_card {
     min-height: 220px;
     width: 375px;
     padding: 20px;
@@ -1095,33 +1096,33 @@ input[type="radio"]:checked+label::before {
     transition: 0.7;
 }
 
-.ser_card h2{
+.ser_card h2 {
     margin-bottom: 15px;
     text-align: center;
     font-size: 1.3em;
 }
 
-.ser_card p{
+.ser_card p {
     color: #6c757d;
     text-align: center;
 }
 
-.ser_card:hover{
+.ser_card:hover {
     background: linear-gradient(90deg,
-        rgba(17, 39, 123, 0.7) 0%,
-        rgba(9,9,221,0.7) 35%,
-        rgba(0,212,215,0.7) 100%);
-        /* url(https://media.istockphoto.com/id/885943922/vector/financial-data-graph-chart-vector-illustration-trend-lines-columns-market-economy-information.jpg?s=612x612&w=0&k=20&c=Go7g8MbMIYBb4Tr1pxyazeRoUGARMAZUfh1A-OsruIU=); */
+            rgba(17, 39, 123, 0.7) 0%,
+            rgba(9, 9, 221, 0.7) 35%,
+            rgba(0, 212, 215, 0.7) 100%);
+    /* url(https://media.istockphoto.com/id/885943922/vector/financial-data-graph-chart-vector-illustration-trend-lines-columns-market-economy-information.jpg?s=612x612&w=0&k=20&c=Go7g8MbMIYBb4Tr1pxyazeRoUGARMAZUfh1A-OsruIU=); */
 
     opacity: 0.7;
     color: #ffffff;
 }
 
-.ser_card:hover p{
+.ser_card:hover p {
     color: #fff;
 }
 
-.ser_card:hover h2{
+.ser_card:hover h2 {
     font-weight: 800;
     color: rgb(6, 7, 43);
     opacity: 1;
@@ -1138,3 +1139,172 @@ input[type="radio"]:checked+label::before {
 /* .ser_card:nth-child(2n):hover h2{
     color: white;
 } */
+
+
+
+/* ABOUT US PAGE */
+
+.firm-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(193, 219, 239, 0.42);
+
+}
+
+.firm-info>div {
+    flex: 1;
+    text-align: center;
+}
+
+#firm1 h2 {
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: rgba(14, 25, 64, 0.888);
+    letter-spacing: 0.7px;
+}
+
+#firm1 {
+    padding: 0 3rem;
+}
+
+#firm1 p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: black;
+    line-height: 1.4;
+}
+
+
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #00000005;
+    padding: 70px 0;
+}
+
+.facts>h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+
+}
+
+.facts-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fact h3 {
+    font-size: 2.5rem;
+    color: #1865b3;
+}
+
+.fact>p {
+    font-size: 0.9srem;
+}
+
+/* TEAM */
+
+.team {
+    padding: 50px;
+    background-color: rgba(193, 219, 239, 0.42);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 540px;
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+    flex: 1;
+}
+
+.header-section {
+    display: inline-block;
+    height: 165px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: rgba(14, 25, 64, 0.888);
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture {
+    position: absolute;
+    top: 35px;
+    border-radius: 50%;
+}
+
+.outer-circle-rushi {
+    height: 166px;
+    width: 166px;
+    border: solid white 3px;
+    z-index: 2;
+    background-image: url("../images/rushi.png");
+    object-fit: cover;
+}
+.outer-circle-sanket {
+    height: 166px;
+    width: 166px;
+    border: solid white 3px;
+    z-index: 2;
+    background-image: url("../images/sanket.png");
+    object-fit: cover;
+}
+
+.inner-circle {
+    top: 31px;
+    height: 178px;
+    width: 178px;
+    background-color: rgba(14, 25, 64, 0.888);
+    z-index: 1;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.content-section>.profile-name {
+    font-size: 1.8rem !important;
+    letter-spacing: 0.3px;
+}
+
+.profile-role {
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a img {
+    height: 30px;
+}
+
+#team-person {
+    padding: 25px;
+    text-align: center;
+}
