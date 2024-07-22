@@ -437,6 +437,7 @@ header nav a:hover {
     .slider .list .item .content {
         padding-right: 0;
     }
+
 }
 
 /* Contact us */
@@ -569,6 +570,23 @@ header nav a:hover {
 @media(max-width:950px) {
     .r {
         width: 33vw;
+    }
+}
+
+
+@media(max-width:480px) {
+    
+
+    .up {
+        height: 30vh;
+    }
+
+    .l {
+        height: 27vh;
+    }
+
+    .r {
+        height: 27vh;
     }
 }
 
@@ -762,6 +780,11 @@ h1 {
     border-radius: .25rem;
     color: var(--dark-color);
     font-weight: 600;
+    text-decoration: none;
+}
+
+.card__button:hover{
+    background-color: rgb(239, 211, 145);
 }
 
 /* Swiper class */
@@ -818,7 +841,7 @@ h1 {
 .car {
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 140px;
     font-size: 1.85rem;
     color: white;
     font-weight: 300;
@@ -834,9 +857,32 @@ h1 {
 }
 
 
+
 .accordian {
     margin: 60px 60px 40px 60px;
     width: 70vw;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        margin: 20px 50px; /* Adjust the margins for smaller screens */
+    }
+
+    .accordian {
+        margin: 10px; /* Adjust the margins for smaller screens */
+        width: 80vw; /* Optional: Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .desc {
+        margin: 10px 20px; /* Further adjust the margins for very small screens */
+    }
+
+    .accordian {
+        margin: 5px; /* Further adjust the margins for very small screens */
+        width: 90vw; /* Optional: Adjust the width for very small screens */
+    }
 }
 
 .accordian li {
@@ -1128,6 +1174,19 @@ input[type="radio"]:checked+label::before {
     opacity: 1;
 }
 
+
+@media screen and (max-width: 476px) {
+    .ser_card {
+        min-height: 220px;
+        padding: 20px;
+    }
+
+    .serv_wrapper{
+        padding: 5px;
+        padding-top: 15px;
+    }
+
+}
 /* .ser_card:nth-child(2n):hover{
     background: linear-gradient(90deg,
     rgba(2,2,36,0.7) 0%,
@@ -1183,14 +1242,14 @@ input[type="radio"]:checked+label::before {
     /* justify-content: center; */
     align-items: center;
     background-color: #00000005;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .facts>h2 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.7px;
-
+    margin-bottom: 20px;
 }
 
 .facts-list {
