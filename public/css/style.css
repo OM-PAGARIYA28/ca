@@ -51,7 +51,7 @@ img {
 }
 
 .logo img {
-    height: 70px;
+    height: 80px;
 }
 
 #menu-icon {
@@ -1043,24 +1043,17 @@ input[type="radio"]:checked+label::before {
 
 /* SERVICES */
 
+/* General Styles */
 #about-us {
     min-height: 100vh;
-    /* background-color: #c2d0d7; */
     text-align: center;
     padding-top: 30px;
 }
 
 .flex-container {
-    /* height: 100%; */
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* border: black 1px solid;
-    border-radius: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgba(224, 214, 214, 0.219); */
 }
 
 .aboutus-container {
@@ -1068,6 +1061,7 @@ input[type="radio"]:checked+label::before {
     gap: 50px;
     justify-content: center;
     margin: 50px;
+    flex-wrap: wrap;
 }
 
 .about-desc {
@@ -1089,8 +1083,8 @@ input[type="radio"]:checked+label::before {
 }
 
 .aboutus-container div {
-    /* width: 45%; */
     flex: 1;
+    min-width: 300px;
 }
 
 .image-holder {
@@ -1104,6 +1098,119 @@ input[type="radio"]:checked+label::before {
     padding: 15px;
     border-radius: 10px;
     border: solid black 2px;
+}
+
+/* Firm Info Styles */
+.firm-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#firm1, #firm2 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+/* Facts Section Styles */
+.facts {
+    text-align: center;
+}
+
+.facts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fact {
+    flex: 1;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 10px;
+}
+
+/* Team Section Styles */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.profile-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.content-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1400px) {
+    .firm-info, .facts-list, .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #firm1, #firm2, .fact, .profile-container {
+        max-width: 90%;
+    }
+
+    .aboutus-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section, .content-section {
+        text-align: center;
+    }
 }
 
 
