@@ -1,7 +1,6 @@
 import express from 'express';
 import bd from 'body-parser';
 import hbs from 'hbs';
-import mongoose from 'mongoose';
 import {routes} from './routes/main.js';
 
 const app = express();
