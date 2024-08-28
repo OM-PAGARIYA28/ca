@@ -662,7 +662,7 @@ header nav a:hover {
 
 @media (max-width: 768px) {
     .map-container {
-        padding-bottom: 76.25%;
+        padding-bottom: 90.25%;
         /* Increase height on mobile devices */
     }
 

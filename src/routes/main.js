@@ -36,17 +36,17 @@ routes.post('/submit-contactform', (req, res) => {
 
     // Create the email transporter
     const transporter = nodemailer.createTransport({
-        service: 'gmail', // or any email service
+        service: 'gmail', 
         auth: {
-            user: 'noreply.ssoffice@gmail.com', // your email
-            pass: 'rdaj oitr lbft sbwa' // your email password or app password
+            user: 'noreply.ssoffice@gmail.com',
+            pass: 'rdaj oitr lbft sbwa' 
         }
     });
 
     // Email options for sending the email to the recipient
     const mailOptions = {
         from: email,
-        to: 'ompagariya28@gmail.com', // recipient email
+        to: 'ca@ssoffice.in', // recipient email
         subject: `Contact Form Submission: ${subject}`,
         text: `Subject: ${subject}\nYou have a new message from ${name} (${email}):\n\n${message}`
     };
@@ -64,7 +64,7 @@ routes.post('/submit-contactform', (req, res) => {
                 from: 'noreply.ssoffice@gmail.com', // your email
                 to: email, // sender's email
                 subject: 'Thank you for reaching out!',
-                text: `Dear ${name},\n\nThank you for contacting us. We have received your message and will get back to you shortly.\n\nBest regards,\nSSAR & CO`
+                text: `Dear ${name},\n\nThank you for contacting us. We have received your message and will get back to you shortly.\n\nBest regards,\nSSAR & CO Charted Accountants`
             };
 
             // Send the confirmation email to the sender
