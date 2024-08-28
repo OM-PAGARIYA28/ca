@@ -46,7 +46,7 @@ routes.post('/submit-contactform', (req, res) => {
     // Email options for sending the email to the recipient
     const mailOptions = {
         from: email,
-        to: 'ompagariya28@gmail.com', // recipient email
+        to: 'ca@ssoffice.in', // recipient email
         subject: `Contact Form Submission: ${subject}`,
         text: `Subject: ${subject}\nYou have a new message from ${name} (${email}):\n\n${message}`
     };
